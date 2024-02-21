@@ -26,3 +26,5 @@ Documentazione librerie private e middleware:
 
 - Libreria per facilitare le query: [executeMySql](./documentation/executeMySql.md)
 - Libreria crypto e le sue funzioni: [Crypto](./documentation/crypto.md)
+- Gestione degli errori middlewaree: [ErrorHandler](./documentation/errorHandler.md)
+- Libreria validazione input: [JoiValidation](./documentation/joiValidation.md)

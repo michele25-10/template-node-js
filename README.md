@@ -20,5 +20,8 @@ Sono state installate le seguenti librerie pubbliche:
 - moment
 - mysql
 - nodemon
+- crypto-js
 
 Documentazione librerie private e middleware:
+
+- Libreria per facilitare le query: [executeMySql](./documentation/executeMySql.md)

@@ -16,7 +16,6 @@ app.use(cors({
 
 const port = process.env.PORT || 5000;
 
-
 app.use(express.json());
 
 app.use("/api", require("./routes/index.route"));

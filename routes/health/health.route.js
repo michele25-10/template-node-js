@@ -12,5 +12,7 @@ const validate = require('../../middleware/JoiValidation');
 /*tutte le rotte sottostanti questa riga prima di entrare nei loro controller verrà verificato se il token è valido*/
 
 router.get("/", validate(healthValidation.healthBackendCheck), healthController.healthBackendCheck);
+router.post("/", healthController.sendEmail);
+
 
 module.exports = router;

@@ -8,12 +8,12 @@ const sql = mysql.createConnection({
     database: process.env.DB
 })
 
-sql.connect(function (err) {
+/*sql.connect(function (err) {
     if (err) {
         throw new Error(err);
     } else {
         console.log("connected succssfully");
     }
-});
+});*/
 
 module.exports = sql;
